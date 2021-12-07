@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9fba8d82da1a44629766eaed7c05c696 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9fba8d82da1a44629766eaed7c05c696" ></div>
+        
+</body>
+<script>    
+    
+            var map_9fba8d82da1a44629766eaed7c05c696 = L.map(
+                "map_9fba8d82da1a44629766eaed7c05c696",
+                {
+                    center: [31.64, -97.08],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_97b7c8f1e1de4c97a3de665e8f92ad6f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9fba8d82da1a44629766eaed7c05c696);
+        
+    
+            var circle_marker_a945050392e34dd38064c70d05c32cec = L.circleMarker(
+                [31.55, -97.14],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_9fba8d82da1a44629766eaed7c05c696);
+        
+    
+        var popup_380c1290b5be427183166efb6503bcc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c488a4259d8f410c9b3320303915695f = $(`<div id="html_c488a4259d8f410c9b3320303915695f" style="width: 100.0%; height: 100.0%;">Waco</div>`)[0];
+            popup_380c1290b5be427183166efb6503bcc1.setContent(html_c488a4259d8f410c9b3320303915695f);
+        
+
+        circle_marker_a945050392e34dd38064c70d05c32cec.bindPopup(popup_380c1290b5be427183166efb6503bcc1)
+        ;
+
+        
+    
+    
+            var marker_ff978474d0ae48edbf32ae9c07fe3d7e = L.marker(
+                [31.55, -97.14],
+                {}
+            ).addTo(map_9fba8d82da1a44629766eaed7c05c696);
+        
+    
+        var popup_fdf44cd025ea473b85dd5f35dc9255fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84b72460c2314c70bece1591461674a9 = $(`<div id="html_84b72460c2314c70bece1591461674a9" style="width: 100.0%; height: 100.0%;">Waco</div>`)[0];
+            popup_fdf44cd025ea473b85dd5f35dc9255fb.setContent(html_84b72460c2314c70bece1591461674a9);
+        
+
+        marker_ff978474d0ae48edbf32ae9c07fe3d7e.bindPopup(popup_fdf44cd025ea473b85dd5f35dc9255fb)
+        ;
+
+        
+    
+    
+            var marker_fe766f07f4fd42d7860d49616c7dfa42 = L.marker(
+                [31.64, -97.08],
+                {}
+            ).addTo(map_9fba8d82da1a44629766eaed7c05c696);
+        
+    
+        var popup_ba350f3871174149a3dc6784a2d3c667 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7ba64f2a98b47fea387397a36206121 = $(`<div id="html_e7ba64f2a98b47fea387397a36206121" style="width: 100.0%; height: 100.0%;">Waco Home TSTC Campus</div>`)[0];
+            popup_ba350f3871174149a3dc6784a2d3c667.setContent(html_e7ba64f2a98b47fea387397a36206121);
+        
+
+        marker_fe766f07f4fd42d7860d49616c7dfa42.bindPopup(popup_ba350f3871174149a3dc6784a2d3c667)
+        ;
+
+        
+    
+    
+            var marker_bef7b2e49de442669bf06ac4dd7459c3 = L.marker(
+                [30.27, -97.74],
+                {}
+            ).addTo(map_9fba8d82da1a44629766eaed7c05c696);
+        
+    
+        var popup_83efec19134d4e4dbf07141a183531ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ed660a176cc4332934709dccbf1beb9 = $(`<div id="html_0ed660a176cc4332934709dccbf1beb9" style="width: 100.0%; height: 100.0%;">State Capitol, Austin, TX</div>`)[0];
+            popup_83efec19134d4e4dbf07141a183531ef.setContent(html_0ed660a176cc4332934709dccbf1beb9);
+        
+
+        marker_bef7b2e49de442669bf06ac4dd7459c3.bindPopup(popup_83efec19134d4e4dbf07141a183531ef)
+        ;
+
+        
+    
+    
+            var marker_e32edf496064491fac72df14148184db = L.marker(
+                [30.33, -97.61],
+                {}
+            ).addTo(map_9fba8d82da1a44629766eaed7c05c696);
+        
+    
+        var popup_b9022de41ddf49b7958a6c1c272ec9c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6bf0c03fc7e4097aea9aa08c8bb9aca = $(`<div id="html_d6bf0c03fc7e4097aea9aa08c8bb9aca" style="width: 100.0%; height: 100.0%;">San Antonio TSTC Campus</div>`)[0];
+            popup_b9022de41ddf49b7958a6c1c272ec9c8.setContent(html_d6bf0c03fc7e4097aea9aa08c8bb9aca);
+        
+
+        marker_e32edf496064491fac72df14148184db.bindPopup(popup_b9022de41ddf49b7958a6c1c272ec9c8)
+        ;
+
+        
+    
+    
+            var poly_line_f771f63b6a1d47f4b739c46e5770a24f = L.polyline(
+                [[31.64, -97.08], [31.55, -97.14]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9fba8d82da1a44629766eaed7c05c696);
+        
+    
+            var poly_line_3096b538f22a45cfaa0a3f0f9ca768f8 = L.polyline(
+                [[31.55, -97.14], [30.27, -97.74]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9fba8d82da1a44629766eaed7c05c696);
+        
+    
+            var poly_line_b9e360483e7d4c859f763ac9a81ac890 = L.polyline(
+                [[30.27, -97.74], [30.33, -97.61]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9fba8d82da1a44629766eaed7c05c696);
+        
+</script>
